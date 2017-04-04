@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F23D87021E938AFB009E67F8 /* MBIconsKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D87011E938AFB009E67F8 /* MBIconsKit.swift */; };
+		F23D870B1E93F30D009E67F8 /* SBItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D87091E93F30D009E67F8 /* SBItem.swift */; };
+		F23D870C1E93F30D009E67F8 /* SBItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23D870A1E93F30D009E67F8 /* SBItem.xib */; };
 		F2C2E3691E8EB6180020332E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E3681E8EB6180020332E /* AppDelegate.swift */; };
 		F2C2E36B1E8EB6180020332E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E36A1E8EB6180020332E /* ViewController.swift */; };
 		F2C2E36D1E8EB6180020332E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C2E36C1E8EB6180020332E /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F23D87011E938AFB009E67F8 /* MBIconsKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBIconsKit.swift; sourceTree = "<group>"; };
+		F23D87091E93F30D009E67F8 /* SBItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBItem.swift; sourceTree = "<group>"; };
+		F23D870A1E93F30D009E67F8 /* SBItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBItem.xib; sourceTree = "<group>"; };
 		F2C2E3651E8EB6180020332E /* MBIconsKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBIconsKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2E3681E8EB6180020332E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C2E36A1E8EB6180020332E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +63,12 @@
 				F2C2E3681E8EB6180020332E /* AppDelegate.swift */,
 				F2C2E36A1E8EB6180020332E /* ViewController.swift */,
 				F2C2E36C1E8EB6180020332E /* Assets.xcassets */,
+				F23D87091E93F30D009E67F8 /* SBItem.swift */,
+				F23D870A1E93F30D009E67F8 /* SBItem.xib */,
 				F2C2E36E1E8EB6180020332E /* Main.storyboard */,
 				F2C2E3711E8EB6180020332E /* Info.plist */,
 				F2C2E3771E8EB63D0020332E /* MBIconSet.swift */,
+				F23D87011E938AFB009E67F8 /* MBIconsKit.swift */,
 			);
 			path = MBIconsKit;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23D870C1E93F30D009E67F8 /* SBItem.xib in Resources */,
 				F2C2E36D1E8EB6180020332E /* Assets.xcassets in Resources */,
 				F2C2E3701E8EB6180020332E /* Main.storyboard in Resources */,
 			);
@@ -138,6 +148,8 @@
 			files = (
 				F2C2E36B1E8EB6180020332E /* ViewController.swift in Sources */,
 				F2C2E3691E8EB6180020332E /* AppDelegate.swift in Sources */,
+				F23D87021E938AFB009E67F8 /* MBIconsKit.swift in Sources */,
+				F23D870B1E93F30D009E67F8 /* SBItem.swift in Sources */,
 				F2C2E3781E8EB63D0020332E /* MBIconSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +307,7 @@
 				F2C2E3761E8EB6180020332E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
