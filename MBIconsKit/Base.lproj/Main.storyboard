@@ -695,11 +695,11 @@
                                         <collectionView selectable="YES" id="3Yc-OZ-eKo">
                                             <rect key="frame" x="0.0" y="0.0" width="707" height="325"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="YmZ-M5-UTA">
-                                                <size key="itemSize" width="100" height="100"/>
-                                            </collectionViewFlowLayout>
+                                            <collectionViewGridLayout key="collectionViewLayout" maximumNumberOfRows="20" maximumNumberOfColumns="10" id="2aQ-A6-6ak">
+                                                <size key="minimumItemSize" width="30" height="30"/>
+                                                <size key="maximumItemSize" width="150" height="150"/>
+                                            </collectionViewGridLayout>
                                             <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="secondaryBackgroundColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </collectionView>
                                     </subviews>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
