@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F23D87021E938AFB009E67F8 /* MBIconsKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D87011E938AFB009E67F8 /* MBIconsKit.swift */; };
-		F23D870B1E93F30D009E67F8 /* SBItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D87091E93F30D009E67F8 /* SBItem.swift */; };
-		F23D870C1E93F30D009E67F8 /* SBItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23D870A1E93F30D009E67F8 /* SBItem.xib */; };
-		F23D870E1E941B37009E67F8 /* Documents.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D870D1E941B37009E67F8 /* Documents.png */; };
+		F262F75F1E965DB8007D9B48 /* IconCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262F75E1E965DB8007D9B48 /* IconCellView.swift */; };
+		F262F7631E968932007D9B48 /* MBIconsKitFilled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262F7621E968932007D9B48 /* MBIconsKitFilled.swift */; };
 		F2C2E3691E8EB6180020332E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E3681E8EB6180020332E /* AppDelegate.swift */; };
 		F2C2E36B1E8EB6180020332E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E36A1E8EB6180020332E /* ViewController.swift */; };
 		F2C2E36D1E8EB6180020332E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C2E36C1E8EB6180020332E /* Assets.xcassets */; };
@@ -20,9 +19,8 @@
 
 /* Begin PBXFileReference section */
 		F23D87011E938AFB009E67F8 /* MBIconsKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBIconsKit.swift; sourceTree = "<group>"; };
-		F23D87091E93F30D009E67F8 /* SBItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBItem.swift; sourceTree = "<group>"; };
-		F23D870A1E93F30D009E67F8 /* SBItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBItem.xib; sourceTree = "<group>"; };
-		F23D870D1E941B37009E67F8 /* Documents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Documents.png; sourceTree = "<group>"; };
+		F262F75E1E965DB8007D9B48 /* IconCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCellView.swift; sourceTree = "<group>"; };
+		F262F7621E968932007D9B48 /* MBIconsKitFilled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBIconsKitFilled.swift; sourceTree = "<group>"; };
 		F2C2E3651E8EB6180020332E /* MBIconsKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBIconsKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2E3681E8EB6180020332E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C2E36A1E8EB6180020332E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,16 +60,15 @@
 		F2C2E3671E8EB6180020332E /* MBIconsKit */ = {
 			isa = PBXGroup;
 			children = (
-				F23D870D1E941B37009E67F8 /* Documents.png */,
 				F2C2E3681E8EB6180020332E /* AppDelegate.swift */,
 				F2C2E36A1E8EB6180020332E /* ViewController.swift */,
 				F2C2E36C1E8EB6180020332E /* Assets.xcassets */,
-				F23D87091E93F30D009E67F8 /* SBItem.swift */,
-				F23D870A1E93F30D009E67F8 /* SBItem.xib */,
 				F2C2E36E1E8EB6180020332E /* Main.storyboard */,
 				F2C2E3711E8EB6180020332E /* Info.plist */,
 				F2C2E3771E8EB63D0020332E /* MBIconSet.swift */,
+				F262F75E1E965DB8007D9B48 /* IconCellView.swift */,
 				F23D87011E938AFB009E67F8 /* MBIconsKit.swift */,
+				F262F7621E968932007D9B48 /* MBIconsKitFilled.swift */,
 			);
 			path = MBIconsKit;
 			sourceTree = "<group>";
@@ -136,9 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23D870C1E93F30D009E67F8 /* SBItem.xib in Resources */,
 				F2C2E36D1E8EB6180020332E /* Assets.xcassets in Resources */,
-				F23D870E1E941B37009E67F8 /* Documents.png in Resources */,
 				F2C2E3701E8EB6180020332E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,10 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F262F7631E968932007D9B48 /* MBIconsKitFilled.swift in Sources */,
 				F2C2E36B1E8EB6180020332E /* ViewController.swift in Sources */,
 				F2C2E3691E8EB6180020332E /* AppDelegate.swift in Sources */,
 				F23D87021E938AFB009E67F8 /* MBIconsKit.swift in Sources */,
-				F23D870B1E93F30D009E67F8 /* SBItem.swift in Sources */,
+				F262F75F1E965DB8007D9B48 /* IconCellView.swift in Sources */,
 				F2C2E3781E8EB63D0020332E /* MBIconSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +264,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = X34UB4R785;
 				INFOPLIST_FILE = MBIconsKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.viorel.MBIconsKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minglebit.MBIconsKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -282,12 +280,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = X34UB4R785;
 				INFOPLIST_FILE = MBIconsKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.viorel.MBIconsKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minglebit.MBIconsKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
