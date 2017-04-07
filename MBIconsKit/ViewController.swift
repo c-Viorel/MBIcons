@@ -34,6 +34,7 @@ class ViewController: NSViewController {
         }
     }
 
+    var ints:Int = 0 ;
     @IBAction func updateColor(_ sender: NSColorWell) {
         colorIcons = sender.color
     }
@@ -76,6 +77,7 @@ extension ViewController: NSTableViewDelegate, NSTableViewDataSource{
     }
 
 
+
     func tableView(_ tableView: NSTableView, rowViewForRow row: Int) -> CustomRowView? {
         let mySelectionRowView = CustomRowView()
 
@@ -89,7 +91,7 @@ extension ViewController: NSTableViewDelegate, NSTableViewDataSource{
 
 class CustomRowView: NSTableRowView {
 
-    let col = NSColor(calibratedRed:0.96, green:0.96, blue:0.96, alpha:1)
+    let col = NSColor(calibratedRed:0.96, green:0.96, blue:0.96, alpha:0.2)
 
     override func drawSelection(in dirtyRect: NSRect) {
         if isSelected == true {
