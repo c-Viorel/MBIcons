@@ -25,8 +25,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-    }
+     }
 
     override var representedObject: Any? {
         didSet {
@@ -73,7 +72,8 @@ extension ViewController: NSTableViewDelegate, NSTableViewDataSource{
     }
 
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return 150
+        Swift.print("Total items: \(MBIconType.windTurbine.hashValue)")
+        return MBIconType.windTurbine.hashValue
     }
 
 
@@ -86,7 +86,6 @@ extension ViewController: NSTableViewDelegate, NSTableViewDataSource{
 
     
 }
-
 
 
 class CustomRowView: NSTableRowView {

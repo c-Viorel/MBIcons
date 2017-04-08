@@ -362,6 +362,153 @@ class MBIconSet: NSView {
         case .zip:
             MBIconsKitFilled.drawZip(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
 
+            //Wheather icons
+        case .airSock:
+            MBWheatherKitFilled.drawAirSock(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .barometer:
+            MBWheatherKitFilled.drawBarometer(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudAdd:
+            MBWheatherKitFilled.drawCloudAdd(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudError1:
+            MBWheatherKitFilled.drawCloudError1(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudFog:
+            MBWheatherKitFilled.drawCloudFog(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudLightning:
+            MBWheatherKitFilled.drawLightning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoon:
+            MBWheatherKitFilled.drawCloudMoon(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonFog:
+            MBWheatherKitFilled.drawCloudFog(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonLightning:
+            MBWheatherKitFilled.drawCloudMoonLightning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonRain:
+            MBWheatherKitFilled.drawCloudMoonRain(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonRaindrops:
+            MBWheatherKitFilled.drawCloudMoonRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonSnowflakes:
+            MBWheatherKitFilled.drawCloudMoonSnowflakes(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRain:
+            MBWheatherKitFilled.drawCloudRain(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRaindrops:
+            MBWheatherKitFilled.drawCloudMoonRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRemove:
+            MBWheatherKitFilled.drawCloudRemove(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRunRain:
+            MBWheatherKitFilled.drawCloudRunRain(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSnow:
+            MBWheatherKitFilled.drawCloudSnow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSnowflakes:
+            MBWheatherKitFilled.drawCloudSnowflakes(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSun:
+            MBWheatherKitFilled.drawCloudSun(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunFog:
+            MBWheatherKitFilled.drawCloudSunFog(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunLightning:
+            MBWheatherKitFilled.drawCloudSunLightning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunRaindrops:
+            MBWheatherKitFilled.drawCloudSunRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunSnow:
+            MBWheatherKitFilled.drawCloudSunSnow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunSnowflakes:
+            MBWheatherKitFilled.drawCloudSunSnowflakes(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudWind:
+            MBWheatherKitFilled.drawCloudWind(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .clouds:
+            MBWheatherKitFilled.drawClouds(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .clouds2:
+            MBWheatherKitFilled.drawClouds2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass:
+            MBWheatherKitFilled.drawCompass(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass2:
+            MBWheatherKitFilled.drawCompass2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass3:
+            MBWheatherKitFilled.drawCompass3(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass4:
+            MBWheatherKitFilled.drawCompass4(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassEast:
+            MBWheatherKitFilled.drawCompassEast(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassNorth:
+            MBWheatherKitFilled.drawCompassNorth(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassSouth:
+            MBWheatherKitFilled.drawCompassEast(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassWest:
+            MBWheatherKitFilled.drawCompassWest(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .degreeCelsius:
+            MBWheatherKitFilled.drawDegreeCelsius(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .degreeFahrenheit:
+            MBWheatherKitFilled.drawDegreeFahrenheit(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .fullMoon:
+            MBWheatherKitFilled.drawFullMoon(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moon:
+            MBWheatherKitFilled.drawMoon(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moon2:
+            MBWheatherKitFilled.drawMoon2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonCrescent:
+            MBWheatherKitFilled.drawMoonCrescent(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonCrescent2:
+            MBWheatherKitFilled.drawMoonCrescent2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonGibbous:
+            MBWheatherKitFilled.drawMoonGibbous(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonGibbous2:
+            MBWheatherKitFilled.drawMoonGibbous2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonHalf:
+            MBWheatherKitFilled.drawMoonHalf(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonHalf2:
+            MBWheatherKitFilled.drawMoonHalf(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonSnow:
+            MBWheatherKitFilled.drawMoonSnow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonStars:
+            MBWheatherKitFilled.drawMoonStars(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonrise:
+            MBWheatherKitFilled.drawMoonrise(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonset:
+            MBWheatherKitFilled.drawMoonset(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .rainbow:
+            MBWheatherKitFilled.drawRainbow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .raindrop:
+            MBWheatherKitFilled.drawRaindrop(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .raindrops:
+            MBWheatherKitFilled.drawRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .snowflake:
+            MBWheatherKitFilled.drawSnowflake(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .stars:
+            MBWheatherKitFilled.drawStars(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sun:
+            MBWheatherKitFilled.drawSun(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunglasses:
+            MBWheatherKitFilled.drawSunglasses(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunrise:
+            MBWheatherKitFilled.drawSunrise(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunset:
+            MBWheatherKitFilled.drawSunset(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunset2:
+            MBWheatherKitFilled.drawSunset2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunset3:
+            MBWheatherKitFilled.drawSunset3(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometer:
+            MBWheatherKitFilled.drawThermometer(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerFull:
+            MBWheatherKitFilled.drawThermometerFull(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerHalf:
+            MBWheatherKitFilled.drawThermometerHalf(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerLow:
+            MBWheatherKitFilled.drawThermometerLow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerQuarter:
+            MBWheatherKitFilled.drawThermometerQuarter(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerThreeQuarters:
+            MBWheatherKitFilled.drawThermometerThreeQuarters(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .tornado:
+            MBWheatherKitFilled.drawTornado(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .umbrella:
+            MBWheatherKitFilled.drawUmbrella(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .warning:
+            MBWheatherKitFilled.drawWarning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .wind:
+            MBWheatherKitFilled.drawWind(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .windTurbine:
+            MBWheatherKitFilled.drawWindTurbine(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+
+
         }
     }
     func drawUnfilledIcon(dirtyRect:NSRect) {
@@ -663,6 +810,153 @@ class MBIconSet: NSView {
         case .zip:
             MBIconsKit.drawZip(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
 
+        //Wheather icons
+        case .airSock:
+            MBWheatherKit.drawAirSock(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .barometer:
+            MBWheatherKit.drawBarometer(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudAdd:
+            MBWheatherKit.drawCloudAdd(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudError1:
+            MBWheatherKit.drawCloudError1(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudFog:
+            MBWheatherKit.drawCloudFog(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudLightning:
+            MBWheatherKit.drawLightning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoon:
+            MBWheatherKit.drawCloudMoon(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonFog:
+            MBWheatherKit.drawCloudFog(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonLightning:
+            MBWheatherKit.drawCloudMoonLightning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonRain:
+            MBWheatherKit.drawCloudMoonRain(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonRaindrops:
+            MBWheatherKit.drawCloudMoonRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudMoonSnowflakes:
+            MBWheatherKit.drawCloudMoonSnowflakes(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRain:
+            MBWheatherKit.drawCloudRain(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRaindrops:
+            MBWheatherKit.drawCloudMoonRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRemove:
+            MBWheatherKit.drawCloudRemove(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudRunRain:
+            MBWheatherKit.drawCloudRunRain(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSnow:
+            MBWheatherKit.drawCloudSnow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSnowflakes:
+            MBWheatherKit.drawCloudSnowflakes(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSun:
+            MBWheatherKit.drawCloudSun(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunFog:
+            MBWheatherKit.drawCloudSunFog(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunLightning:
+            MBWheatherKit.drawCloudSunLightning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunRaindrops:
+            MBWheatherKit.drawCloudSunRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunSnow:
+            MBWheatherKit.drawCloudSunSnow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudSunSnowflakes:
+            MBWheatherKit.drawCloudSunSnowflakes(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .cloudWind:
+            MBWheatherKit.drawCloudWind(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .clouds:
+            MBWheatherKit.drawClouds(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .clouds2:
+            MBWheatherKit.drawClouds2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass:
+            MBWheatherKit.drawCompass(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass2:
+            MBWheatherKit.drawCompass2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass3:
+            MBWheatherKit.drawCompass3(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compass4:
+            MBWheatherKit.drawCompass4(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassEast:
+            MBWheatherKit.drawCompassEast(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassNorth:
+            MBWheatherKit.drawCompassNorth(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassSouth:
+            MBWheatherKit.drawCompassEast(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .compassWest:
+            MBWheatherKit.drawCompassWest(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .degreeCelsius:
+            MBWheatherKit.drawDegreeCelsius(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .degreeFahrenheit:
+            MBWheatherKit.drawDegreeFahrenheit(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .fullMoon:
+            MBWheatherKit.drawFullMoon(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moon:
+            MBWheatherKit.drawMoon(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moon2:
+            MBWheatherKit.drawMoon2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonCrescent:
+            MBWheatherKit.drawMoonCrescent(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonCrescent2:
+            MBWheatherKit.drawMoonCrescent2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonGibbous:
+            MBWheatherKit.drawMoonGibbous(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonGibbous2:
+            MBWheatherKit.drawMoonGibbous2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonHalf:
+            MBWheatherKit.drawMoonHalf(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonHalf2:
+            MBWheatherKit.drawMoonHalf(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonSnow:
+            MBWheatherKit.drawMoonSnow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonStars:
+            MBWheatherKit.drawMoonStars(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonrise:
+            MBWheatherKit.drawMoonrise(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .moonset:
+            MBWheatherKit.drawMoonset(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .rainbow:
+            MBWheatherKit.drawRainbow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .raindrop:
+            MBWheatherKit.drawRaindrop(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .raindrops:
+            MBWheatherKit.drawRaindrops(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .snowflake:
+            MBWheatherKit.drawSnowflake(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .stars:
+            MBWheatherKit.drawStars(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sun:
+            MBWheatherKit.drawSun(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunglasses:
+            MBWheatherKit.drawSunglasses(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunrise:
+            MBWheatherKit.drawSunrise(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunset:
+            MBWheatherKit.drawSunset(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunset2:
+            MBWheatherKit.drawSunset2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .sunset3:
+            MBWheatherKit.drawSunset3(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometer:
+            MBWheatherKit.drawThermometer(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerFull:
+            MBWheatherKit.drawThermometerFull(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerHalf:
+            MBWheatherKit.drawThermometerHalf(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerLow:
+            MBWheatherKit.drawThermometerLow(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerQuarter:
+            MBWheatherKit.drawThermometerQuarter(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thermometerThreeQuarters:
+            MBWheatherKit.drawThermometerThreeQuarters(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .tornado:
+            MBWheatherKit.drawTornado(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .umbrella:
+            MBWheatherKit.drawUmbrella(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .warning:
+            MBWheatherKit.drawWarning(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .wind:
+            MBWheatherKit.drawWind(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .windTurbine:
+            MBWheatherKit.drawWindTurbine(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+            
+
         }
 
     }
@@ -818,6 +1112,83 @@ class MBIconSet: NSView {
         case "trashCan":            return MBIconType.trashCan
         case "trashCan2":           return MBIconType.trashCan2
         case "zip":                 return MBIconType.zip
+
+
+            //Wheather icons 
+        case "airSock":             return MBIconType.airSock
+        case "barometer":           return MBIconType.barometer
+        case "cloudAdd":            return MBIconType.cloudAdd
+        case "cloudError1":         return MBIconType.cloudError1
+        case "cloudFog":            return MBIconType.cloudFog
+        case "cloudLightning":      return MBIconType.cloudLightning
+        case "cloudMoon":           return MBIconType.cloudMoon
+        case "cloudMoonFog":        return MBIconType.cloudMoonLightning
+        case "cloudMoonLightning":  return MBIconType.cloudMoonLightning
+        case "cloudMoonRain":       return MBIconType.cloudMoonRain
+        case "cloudMoonRaindrops":  return MBIconType.cloudMoonRaindrops
+        case "cloudMoonSnowflakes": return MBIconType.cloudMoonSnowflakes
+        case "cloudRain":           return MBIconType.cloudRain
+        case "cloudRaindrops":      return MBIconType.cloudRaindrops
+        case "cloudRemove":         return MBIconType.cloudRemove
+        case "cloudRunRain":        return MBIconType.cloudRunRain
+        case "cloudSnow":           return MBIconType.cloudSnow
+        case "cloudSnowflakes":     return MBIconType.cloudSnowflakes
+        case "cloudSun":            return MBIconType.cloudSun
+        case "cloudSunFog":         return MBIconType.cloudSunFog
+        case "cloudSunLightning":   return MBIconType.cloudSunLightning
+        case "cloudSunRaindrops":   return MBIconType.cloudSunRaindrops
+        case "cloudSunSnow":        return MBIconType.cloudSunSnow
+        case "cloudSunSnowflakes":  return MBIconType.cloudSunSnowflakes
+        case "cloudWind":           return MBIconType.cloudWind
+        case "clouds":              return MBIconType.clouds
+        case "clouds2":             return MBIconType.clouds2
+        case "compass":             return MBIconType.compass
+        case "compass2":            return MBIconType.compass2
+        case "compass3":            return MBIconType.compass3
+        case "compass4":            return MBIconType.compass4
+        case "compassEast":         return MBIconType.compassEast
+        case "compassNorth":        return MBIconType.compassNorth
+        case "compassSouth":        return MBIconType.compassSouth
+        case "compassWest":         return MBIconType.compassWest
+        case "degreeCelsius":       return MBIconType.degreeCelsius
+        case "degreeFahrenheit":    return MBIconType.degreeFahrenheit
+        case "fullMoon":            return MBIconType.fullMoon
+        case "moon":                return MBIconType.moon
+        case "moon2":               return MBIconType.moon2
+        case "moonCrescent":        return MBIconType.moonCrescent
+        case "moonCrescent2":       return MBIconType.moonCrescent2
+        case "moonGibbous":         return MBIconType.moonGibbous
+        case "moonGibbous2":        return MBIconType.moonGibbous2
+        case "moonHalf":            return MBIconType.moonHalf
+        case "moonHalf2":           return MBIconType.moonHalf2
+        case "moonSnow":            return MBIconType.moonSnow
+        case "moonStars":           return MBIconType.moonStars
+        case "moonrise":            return MBIconType.moonrise
+        case "moonset":             return MBIconType.moonset
+        case "rainbow":             return MBIconType.rainbow
+        case "raindrop":            return MBIconType.raindrop
+        case "raindrops":           return MBIconType.raindrops
+        case "snowflake":           return MBIconType.snowflake
+        case "stars":               return MBIconType.stars
+        case "sun":                 return MBIconType.sun
+        case "sunglasses":          return MBIconType.sunglasses
+        case "sunrise":             return MBIconType.sunrise
+        case "sunset":              return MBIconType.sunset
+        case "sunset2":             return MBIconType.sunset2
+        case "sunset3":             return MBIconType.sunset3
+        case "thermometer":         return MBIconType.thermometer
+        case "thermometerFull":     return MBIconType.thermometerFull
+        case "thermometerHalf":     return MBIconType.thermometerHalf
+        case "thermometerLow":      return MBIconType.thermometerLow
+        case "thermometerQuarter":  return MBIconType.thermometerQuarter
+        case "thermometerThreeQuarters": return MBIconType.thermometerThreeQuarters
+        case "tornado":             return MBIconType.tornado
+        case "umbrella":            return MBIconType.umbrella
+        case "warning":             return MBIconType.warning
+        case "wind":                return MBIconType.wind
+        case "windTurbine":         return MBIconType.windTurbine
+
+
         default:
             return MBIconType.book
         }
@@ -975,5 +1346,83 @@ enum MBIconType:Int {
     case trashCan
     case trashCan2
     case zip
+
+    //Wheather
+    case airSock
+    case barometer
+    case cloudAdd
+    case cloudError1
+    case cloudFog
+    case cloudLightning
+    case cloudMoon
+    case cloudMoonFog
+    case cloudMoonLightning
+    case cloudMoonRain
+    case cloudMoonRaindrops
+    case cloudMoonSnowflakes
+    case cloudRain
+    case cloudRaindrops
+    case cloudRemove
+    case cloudRunRain
+    case cloudSnow
+    case cloudSnowflakes
+    case cloudSun
+    case cloudSunFog
+    case cloudSunLightning
+    case cloudSunRaindrops
+    case cloudSunSnow
+    case cloudSunSnowflakes
+    case cloudWind
+    case clouds
+    case clouds2
+    case compass
+    case compass2
+    case compass3
+    case compass4
+    case compassEast
+    case compassNorth
+    case compassSouth
+    case compassWest
+    case degreeCelsius
+    case degreeFahrenheit
+    case fullMoon
+    case moon
+    case moon2
+    case moonCrescent
+    case moonCrescent2
+    case moonGibbous
+    case moonGibbous2
+    case moonHalf
+    case moonHalf2
+    case moonSnow
+    case moonStars
+    case moonrise
+    case moonset
+    case rainbow
+    case raindrop
+    case raindrops
+    case snowflake
+    case stars
+    case sun
+    case sunglasses
+    case sunrise
+    case sunset
+    case sunset2
+    case sunset3
+    case thermometer
+    case thermometerFull
+    case thermometerHalf
+    case thermometerLow
+    case thermometerQuarter
+    case thermometerThreeQuarters
+    case tornado
+    case umbrella
+    case warning
+    case wind
+    case windTurbine
 }
+
+
+
+
 
