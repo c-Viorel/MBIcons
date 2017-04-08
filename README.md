@@ -7,7 +7,7 @@ MBIcons contains over 100 icons that can be resized to any dimensions as they ar
 
 
 
-![Document icons](https://github.com/c-Viorel/MBIcons/blob/master/Docs.png?raw=true)
+![Document icons](https://github.com/c-Viorel/MBIcons/blob/master/DocumentsIcons.png?raw=true)
 ![Wheather icons](https://github.com/c-Viorel/MBIcons/blob/master/Wheather.png?raw=true)
 
 
