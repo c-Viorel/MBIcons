@@ -1,5 +1,5 @@
 # MBIcons
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
+[![License: MIT](https://img.shields.io/badge/Swift-3.1-orange.svg)]
 [![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-8.3-blue.svg)](https://developer.apple.com/xcode)
 
