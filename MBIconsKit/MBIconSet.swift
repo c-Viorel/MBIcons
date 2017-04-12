@@ -508,9 +508,110 @@ class MBIconSet: NSView {
         case .windTurbine:
             MBWheatherKitFilled.drawWindTurbine(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
 
+        //Gestures
+        case .highFive:
+            MBGesturesFilledKit.drawHighFive(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .middleFinger:
+            MBGesturesFilledKit.drawMiddleFinger(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFinger:
+            MBGesturesFilledKit.drawOneFinger(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerClick:
+            MBGesturesFilledKit.drawOneFingerClick(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerClick2:
+            MBGesturesFilledKit.drawOneFingerClick2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerDoubleTap:
+            MBGesturesFilledKit.drawOneFingerDoubleTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerDoubleTap2:
+            MBGesturesFilledKit.drawOneFingerDoubleTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipe:
+            MBGesturesFilledKit.drawOneFingerSwipe(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeDown:
+            MBGesturesFilledKit.drawOneFingerSwipeDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeDown2:
+            MBGesturesFilledKit.drawOneFingerSwipeDown2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeHorizontally:
+            MBGesturesFilledKit.drawOneFingerSwipeHorizontally(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeLeft:
+            MBGesturesFilledKit.drawOneFingerSwipeLeft(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeLeft2:
+            MBGesturesFilledKit.drawOneFingerSwipeLeft2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeRight:
+            MBGesturesFilledKit.drawOneFingerSwipeRight(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeRight2:
+            MBGesturesFilledKit.drawOneFingerSwipeRight2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeUp:
+            MBGesturesFilledKit.drawOneFingerSwipeUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeUp2:
+            MBGesturesFilledKit.drawOneFingerSwipeUp2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTap:
+            MBGesturesFilledKit.drawOneFingerTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTap2:
+            MBGesturesFilledKit.drawOneFingerTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTapHold:
+            MBGesturesFilledKit.drawOneFingerTapHold(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTapHold2:
+            MBGesturesFilledKit.drawOneFingerTapHold2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .rockNRoll:
+            MBGesturesFilledKit.drawRockNRoll(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingers:
+            MBGesturesFilledKit.drawThreeFingers(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersDoubleTap:
+            MBGesturesFilledKit.drawThreeFingersDoubleTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersDoubleTap2:
+            MBGesturesFilledKit.drawThreeFingersDoubleTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeDown:
+            MBGesturesFilledKit.drawThreeFingersSwipeDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeLeft:
+            MBGesturesFilledKit.drawThreeFingersSwipeLeft(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeRight:
+            MBGesturesFilledKit.drawThreeFingersSwipeRight(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeUp:
+            MBGesturesFilledKit.drawThreeFingersSwipeUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersTap:
+            MBGesturesFilledKit.drawThreeFingersTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbDown:
+            MBGesturesFilledKit.drawThumbDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbDown2:
+            MBGesturesFilledKit.drawThumbDown2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbFingerTap:
+            MBGesturesFilledKit.drawThumbFingerTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbUp:
+            MBGesturesFilledKit.drawThumbUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbUp2:
+            MBGesturesFilledKit.drawThumbUp2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingers:
+            MBGesturesFilledKit.drawTwoFingers(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersDoubleTap:
+            MBGesturesFilledKit.drawTwoFingersDoubleTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersResizeIn:
+            MBGesturesFilledKit.drawTwoFingersResizeIn(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersResizeOut:
+            MBGesturesFilledKit.drawTwoFingersResizeOut(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersRotate:
+            MBGesturesFilledKit.drawTwoFingersRotate(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeDown:
+            MBGesturesFilledKit.drawTwoFingersSwipeDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeDown2:
+            MBGesturesFilledKit.drawTwoFingersSwipeDown2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeLeft:
+            MBGesturesFilledKit.drawTwoFingersSwipeLeft(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeLeft2:
+            MBGesturesFilledKit.drawTwoFingersSwipeLeft2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeRight:
+            MBGesturesFilledKit.drawTwoFingersSwipeRight(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeRight2:
+            MBGesturesFilledKit.drawTwoFingersSwipeRight2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeUp:
+            MBGesturesFilledKit.drawTwoFingersSwipeUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeUp2:
+            MBGesturesFilledKit.drawTwoFingersSwipeUp2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersTap:
+            MBGesturesFilledKit.drawTwoFingersTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersTap2:
+            MBGesturesFilledKit.drawTwoFingersTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
 
         }
-    }
+        }
     func drawUnfilledIcon(dirtyRect:NSRect) {
         switch type {
         case .book:
@@ -955,7 +1056,108 @@ class MBIconSet: NSView {
             MBWheatherKit.drawWind(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
         case .windTurbine:
             MBWheatherKit.drawWindTurbine(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
-            
+
+            //Gestures
+        case .highFive:
+            MBGesturesKit.drawHighFive(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .middleFinger:
+            MBGesturesKit.drawMiddleFinger(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFinger:
+            MBGesturesKit.drawOneFinger(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerClick:
+            MBGesturesKit.drawOneFingerClick(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerClick2:
+            MBGesturesKit.drawOneFingerClick2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerDoubleTap:
+            MBGesturesKit.drawOneFingerDoubleTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerDoubleTap2:
+            MBGesturesKit.drawOneFingerDoubleTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipe:
+            MBGesturesKit.drawOneFingerSwipe(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeDown:
+            MBGesturesKit.drawOneFingerSwipeDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeDown2:
+            MBGesturesKit.drawOneFingerSwipeDown2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeHorizontally:
+            MBGesturesKit.drawOneFingerSwipeHorizontally(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeLeft:
+            MBGesturesKit.drawOneFingerSwipeLeft(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeLeft2:
+            MBGesturesKit.drawOneFingerSwipeLeft2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeRight:
+            MBGesturesKit.drawOneFingerSwipeRight(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeRight2:
+            MBGesturesKit.drawOneFingerSwipeRight2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeUp:
+            MBGesturesKit.drawOneFingerSwipeUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerSwipeUp2:
+            MBGesturesKit.drawOneFingerSwipeUp2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTap:
+            MBGesturesKit.drawOneFingerTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTap2:
+            MBGesturesKit.drawOneFingerTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTapHold:
+            MBGesturesKit.drawOneFingerTapHold(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .oneFingerTapHold2:
+            MBGesturesKit.drawOneFingerTapHold2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .rockNRoll:
+            MBGesturesKit.drawRockNRoll(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingers:
+            MBGesturesKit.drawThreeFingers(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersDoubleTap:
+            MBGesturesKit.drawThreeFingersDoubleTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersDoubleTap2:
+            MBGesturesKit.drawThreeFingersDoubleTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeDown:
+            MBGesturesKit.drawThreeFingersSwipeDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeLeft:
+            MBGesturesKit.drawThreeFingersSwipeLeft(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeRight:
+            MBGesturesKit.drawThreeFingersSwipeRight(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersSwipeUp:
+            MBGesturesKit.drawThreeFingersSwipeUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .threeFingersTap:
+            MBGesturesKit.drawThreeFingersTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbDown:
+            MBGesturesKit.drawThumbDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbDown2:
+            MBGesturesKit.drawThumbDown2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbFingerTap:
+            MBGesturesKit.drawThumbFingerTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbUp:
+            MBGesturesKit.drawThumbUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .thumbUp2:
+            MBGesturesKit.drawThumbUp2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingers:
+            MBGesturesKit.drawTwoFingers(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersDoubleTap:
+            MBGesturesKit.drawTwoFingersDoubleTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersResizeIn:
+            MBGesturesKit.drawTwoFingersResizeIn(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersResizeOut:
+            MBGesturesKit.drawTwoFingersResizeOut(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersRotate:
+            MBGesturesKit.drawTwoFingersRotate(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeDown:
+            MBGesturesKit.drawTwoFingersSwipeDown(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeDown2:
+            MBGesturesKit.drawTwoFingersSwipeDown2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeLeft:
+            MBGesturesKit.drawTwoFingersSwipeLeft(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeLeft2:
+            MBGesturesKit.drawTwoFingersSwipeLeft2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeRight:
+            MBGesturesKit.drawTwoFingersSwipeRight(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeRight2:
+            MBGesturesKit.drawTwoFingersSwipeRight2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeUp:
+            MBGesturesKit.drawTwoFingersSwipeUp(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersSwipeUp2:
+            MBGesturesKit.drawTwoFingersSwipeUp2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersTap:
+            MBGesturesKit.drawTwoFingersTap(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
+        case .twoFingersTap2:
+            MBGesturesKit.drawTwoFingersTap2(frame: dirtyRect, resizing: .aspectFit, fillColor: iconColor)
 
         }
 
@@ -1187,6 +1389,59 @@ class MBIconSet: NSView {
         case "warning":             return MBIconType.warning
         case "wind":                return MBIconType.wind
         case "windTurbine":         return MBIconType.windTurbine
+
+        ///Gestures
+        case "highFive":                    return MBIconType.highFive
+        case "middleFinger":                return MBIconType.middleFinger
+        case "oneFinger":                   return MBIconType.oneFinger
+        case "oneFingerClick":              return MBIconType.oneFingerClick
+        case "oneFingerClick2":             return MBIconType.oneFingerClick2
+        case "oneFingerDoubleTap":          return MBIconType.oneFingerDoubleTap
+        case "oneFingerDoubleTap2":         return MBIconType.oneFingerDoubleTap2
+        case "oneFingerSwipe":              return MBIconType.oneFingerSwipe
+        case "oneFingerSwipeDown":          return MBIconType.oneFingerSwipeDown
+        case "oneFingerSwipeDown2":         return MBIconType.oneFingerSwipeDown2
+        case "oneFingerSwipeHorizontally":  return MBIconType.oneFingerSwipeHorizontally
+        case "oneFingerSwipeLeft":          return MBIconType.oneFingerSwipeLeft
+        case "oneFingerSwipeLeft2":         return MBIconType.oneFingerSwipeLeft2
+        case "oneFingerSwipeRight":         return MBIconType.oneFingerSwipeRight
+        case "oneFingerSwipeRight2":        return MBIconType.oneFingerSwipeRight2
+        case "oneFingerSwipeUp":            return MBIconType.oneFingerSwipeUp
+        case "oneFingerSwipeUp2":           return MBIconType.oneFingerSwipeUp2
+        case "oneFingerTap":                return MBIconType.oneFingerTap
+        case "oneFingerTap2":               return MBIconType.oneFingerTap2
+        case "oneFingerTapHold":            return MBIconType.oneFingerTapHold
+        case "oneFingerTapHold2":           return MBIconType.oneFingerTapHold2
+        case "rockNRoll":                   return MBIconType.rockNRoll
+        case "threeFingers":                return MBIconType.threeFingers
+        case "threeFingersDoubleTap":       return MBIconType.threeFingersDoubleTap
+        case "threeFingersDoubleTap2":      return MBIconType.threeFingersDoubleTap2
+        case "threeFingersSwipeDown":       return MBIconType.threeFingersSwipeDown
+        case "threeFingersSwipeLeft":       return MBIconType.threeFingersSwipeLeft
+        case "threeFingersSwipeRight":      return MBIconType.threeFingersSwipeRight
+        case "threeFingersSwipeUp":         return MBIconType.threeFingersSwipeUp
+        case "threeFingersTap":             return MBIconType.threeFingersTap
+        case "thumbDown":                   return MBIconType.thumbDown
+        case "thumbDown2":                  return MBIconType.thumbDown2
+        case "thumbFingerTap":              return MBIconType.thumbFingerTap
+        case "thumbUp":                     return MBIconType.thumbUp
+        case "thumbUp2":                    return MBIconType.thumbUp2
+        case "twoFingers":                  return MBIconType.twoFingers
+        case "twoFingersDoubleTap":         return MBIconType.twoFingersDoubleTap
+        case "twoFingersResizeIn":          return MBIconType.twoFingersResizeIn
+        case "twoFingersResizeOut":         return MBIconType.twoFingersResizeOut
+        case "twoFingersRotate":            return MBIconType.twoFingersRotate
+        case "twoFingersSwipeDown":         return MBIconType.twoFingersSwipeDown
+        case "twoFingersSwipeDown2":        return MBIconType.twoFingersSwipeDown2
+        case "twoFingersSwipeLeft":         return MBIconType.twoFingersSwipeLeft2
+        case "twoFingersSwipeLeft2":        return MBIconType.twoFingersSwipeLeft2
+        case "twoFingersSwipeRight":        return MBIconType.twoFingersSwipeRight
+        case "twoFingersSwipeRight2":       return MBIconType.twoFingersSwipeRight2
+        case "twoFingersSwipeUp":           return MBIconType.twoFingersSwipeUp
+        case "twoFingersSwipeUp2":          return MBIconType.twoFingersSwipeUp2
+        case "twoFingersTap":               return MBIconType.twoFingersTap
+        case "twoFingersTap2":              return MBIconType.twoFingersTap2
+
 
 
         default:
@@ -1420,6 +1675,59 @@ enum MBIconType:Int {
     case warning
     case wind
     case windTurbine
+
+    // Gestures 
+    case highFive
+    case middleFinger
+    case oneFinger
+    case oneFingerClick
+    case oneFingerClick2
+    case oneFingerDoubleTap
+    case oneFingerDoubleTap2
+    case oneFingerSwipe
+    case oneFingerSwipeDown
+    case oneFingerSwipeDown2
+    case oneFingerSwipeHorizontally
+    case oneFingerSwipeLeft
+    case oneFingerSwipeLeft2
+    case oneFingerSwipeRight
+    case oneFingerSwipeRight2
+    case oneFingerSwipeUp
+    case oneFingerSwipeUp2
+    case oneFingerTap
+    case oneFingerTap2
+    case oneFingerTapHold
+    case oneFingerTapHold2
+    case rockNRoll
+    case threeFingers
+    case threeFingersDoubleTap
+    case threeFingersDoubleTap2
+    case threeFingersSwipeDown
+    case threeFingersSwipeLeft
+    case threeFingersSwipeRight
+    case threeFingersSwipeUp
+    case threeFingersTap
+    case thumbDown
+    case thumbDown2
+    case thumbFingerTap
+    case thumbUp
+    case thumbUp2
+    case twoFingers
+    case twoFingersDoubleTap
+    case twoFingersResizeIn
+    case twoFingersResizeOut
+    case twoFingersRotate
+    case twoFingersSwipeDown
+    case twoFingersSwipeDown2
+    case twoFingersSwipeLeft
+    case twoFingersSwipeLeft2
+    case twoFingersSwipeRight
+    case twoFingersSwipeRight2
+    case twoFingersSwipeUp
+    case twoFingersSwipeUp2
+    case twoFingersTap
+    case twoFingersTap2
+
 }
 
 

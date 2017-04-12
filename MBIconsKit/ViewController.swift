@@ -8,6 +8,8 @@
 
 import Cocoa
 
+
+
 class ViewController: NSViewController {
 
 
@@ -22,6 +24,7 @@ class ViewController: NSViewController {
             myTable.reloadData()
         }
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,8 +37,14 @@ class ViewController: NSViewController {
     }
 
     var ints:Int = 0 ;
+
+
+
     @IBAction func updateColor(_ sender: NSColorWell) {
         colorIcons = sender.color
+
+
+
     }
 
     @IBAction func changeFilledState(_ sender: NSButton) {
@@ -73,7 +82,7 @@ extension ViewController: NSTableViewDelegate, NSTableViewDataSource{
 
     func numberOfRows(in tableView: NSTableView) -> Int {
         Swift.print("Total items: \(MBIconType.windTurbine.hashValue)")
-        return MBIconType.windTurbine.hashValue
+        return MBIconType.twoFingersTap2.hashValue   // Last icon type
     }
 
 
