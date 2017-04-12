@@ -8,7 +8,9 @@ MBIcons contains over 200 icons that can be resized to any dimensions as they ar
 
 
 ![Document icons](https://github.com/c-Viorel/MBIcons/blob/master/DocumentsIcons.png?raw=true)
+------
 ![Wheather icons](https://github.com/c-Viorel/MBIcons/blob/master/Wheather-icons.png?raw=true)
+-----
 ![Gestures icons]( https://github.com/c-Viorel/MBIcons/blob/master/Gestures.png?raw=true)
 
 
